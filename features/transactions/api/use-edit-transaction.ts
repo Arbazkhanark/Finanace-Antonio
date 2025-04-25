@@ -15,7 +15,7 @@ const useEditTransaction = (id?: string) => {
   const mutation = useMutation<ResponseType, Error, RequestType>({
     mutationFn: async (json) => {
       const res = await client.api.transactions[":id"]["$patch"]({
-        param: { id },
+        param: { id:id! },
         json,
       });
       if (!res.ok) {
