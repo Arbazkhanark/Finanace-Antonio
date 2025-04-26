@@ -4,7 +4,7 @@ import { AppType } from "@/app/api/[[...route]]/route";
 
 // export const client = hc<AppType>(process.env.NEXT_PUBLIC_APP_URL || "https://finanace-antonio-7e6a.vercel.app/");
 
-export const client = hc<AppType>('https://finanace-antonio-7e6a.vercel.app/');
+export const client = hc<AppType>('https://finanace-antonio-7e6a-git-main-arbaz-khans-projects-32f9d331.vercel.app/');
 
 
 
